@@ -1,0 +1,37 @@
+table, table tr, table td {
+  border: 1px solid black;
+}
+
+table td {
+  max-width: 50px !important;
+  min-width: 50px;
+  /*padding: 1px;*/
+  /*margin: 1px;*/
+  padding: 0 !important;
+
+}
+
+div.wrapper {
+  height: 100%;
+  width: 100%;
+  background-color: #ffffff;
+  text-align: center;
+  padding: 2em;
+  margin-top: -4%;
+}
+
+div.wrapper.selected {
+  background-color: #106CC8;
+}
+
+div.wrapper > a {
+  margin: auto;
+}
+
+div.container {
+  width: 99%;
+}
+
+.waves-effect.waves-blue .waves-ripple {
+  background-color: rgba(38, 126, 213, 0.65);
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html ng-app="corporate-bingo">
+  <head>
+    <meta charset="utf-8">
+    <title>Corporate-Babble Bingo</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css" media="screen" title="no title">
+    <link rel="stylesheet" href="css/corporate.css" media="screen" title="no title">
+  </head>
+  <body ng-controller="MainCtrl">
+    <div class="container" ng-cloak>
+      <div class="row">
+        <div class="col s12">
+          <h1 class="center">Corporate-Babble Bingo</h1>
+        </div>
+      </div>
+
+      <article class="center" ng-hide="loadedBoard">
+        <h4>Loading board...</h4>
+        <h6>Javascript is <u>required</u> for this to work...</h6>
+
+        <div class="preloader-wrapper big active">
+          <div class="spinner-layer spinner-blue-only">
+            <div class="circle-clipper left">
+              <div class="circle"></div>
+            </div><div class="gap-patch">
+              <div class="circle"></div>
+            </div><div class="circle-clipper right">
+              <div class="circle"></div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <section ng-repeat="row in bingo track by $index" ng-show="loadedBoard">
+        <div class="row">
+          <div class="col s1"></div>
+
+          <div class="col s2" ng-repeat="word in row track by $index">
+            <div class="wrapper waves-effect waves-blue" style="border: 1px solid black;" ng-click="toggleSelect($parent.$index, $index)" ng-class="{ 'selected': board[$parent.$index][$index] === true }">
+              <a href="javascript:void(0)" ng-bind="word"></a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js" charset="utf-8"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js" charset="utf-8"></script>
+    <script src="js/corporate.js" charset="utf-8"></script>
+  </body>
+</html>
