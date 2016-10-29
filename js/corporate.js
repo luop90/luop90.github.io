@@ -33,14 +33,12 @@ corporate.controller('MainCtrl', function ($scope) {
 
     // Now we check if the game is done
     if (checkFirstDiagnol($scope) || checkSecondDiagnol($scope)) {
-      return alert('BINGO!');
+      runBingo();
     }
 
     for (var i = 0; i < $scope.board.length; i++) {
-      if (entireRowIsTrue($scope.board[i])) {
-        alert('BINGO!');
-      } else if (entireColumnIsTrue($scope, i)) {
-        alert('BINGO');
+      if (entireRowIsTrue($scope.board[i]) || entireColumnIsTrue($scope, i)) {
+        runBingo();
       }
     }
   };
@@ -111,4 +109,8 @@ function checkSecondDiagnol($scope) {
   }
 
   return true;
+}
+
+function runBingo() {
+  
 }
