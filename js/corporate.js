@@ -115,5 +115,5 @@ function checkSecondDiagnol($scope) {
 }
 
 function runBingo() {
-
+  alert('BINGO!');
 }
