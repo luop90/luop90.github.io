@@ -61,6 +61,9 @@ corporate.controller('MainCtrl', function ($scope) {
   }
 
   $scope.loadedBoard = true;
+
+  // Initialize our modal
+  $('.modal').modal();
 });
 
 function fetchPhrase() {
@@ -112,5 +115,5 @@ function checkSecondDiagnol($scope) {
 }
 
 function runBingo() {
-  
+
 }

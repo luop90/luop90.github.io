@@ -1,3 +1,9 @@
+button#info-button {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
 div.wrapper {
   height: 100%;
   width: 100%;

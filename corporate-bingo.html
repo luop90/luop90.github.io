@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <title>Corporate-Babble Bingo</title>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css" media="screen" title="no title">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/icon?family=Material+Icons" media="screen" title="no title">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css" media="screen" title="no title">
     <link rel="stylesheet" href="css/corporate.css" media="screen" title="no title">
   </head>
   <body ng-controller="MainCtrl">
@@ -36,7 +37,7 @@
 
       <section ng-repeat="row in bingo track by $index" ng-show="loadedBoard">
         <div class="row">
-          <div class="col s1"></div>
+          <div class="col s1"></div> <!-- because spacing -->
 
           <div class="col s2" ng-repeat="word in row track by $index">
             <div class="wrapper waves-effect waves-blue" style="border: 1px solid black;" ng-click="toggleSelect($parent.$index, $index)" ng-class="{ 'selected': board[$parent.$index][$index] === true }">
@@ -45,10 +46,31 @@
           </div>
         </div>
       </section>
+
+      <button class="btn-floating waves-effect waves-blue blue modal-trigger" id="info-button" data-target="info-modal" type="button">
+        <i class="material-icons">info_outline</i>
+      </button>
+    </div><!-- /.container -->
+
+    <!-- Begin info modal -->
+    <div class="modal" id="info-modal">
+      <div class="modal-content">
+        <h4>FAQ</h4>
+
+        <ul>
+          <li>- Refresh the page to generate a new board.</li>
+          <li>- Click on a tile to select that tile; click again to de-select.</li>
+        </ul>
+
+        <span>Created by <a href="https://github.com/luop90" target="_blank">Luop90</a></span>
+        <br>
+        <span>Source available on <a href="https://github.com/luop90/luop90.github.io" target="_blank">Github</a></span>
+      </div>
     </div>
+    <!-- End info modal -->
 
     <script src="https://code.jquery.com/jquery-2.1.1.min.js" charset="utf-8"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js" charset="utf-8"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js" charset="utf-8"></script>
     <script src="js/corporate.js" charset="utf-8"></script>
   </body>
