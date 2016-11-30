@@ -51,7 +51,7 @@ var possibleSelections = [
   'Conversation',
   'Differentiation',
   'Rating',
-  'Celebratinos',
+  'Celebrations',
   'Summative Assessment',
   'Pretest',
   'Instructional Moves',
