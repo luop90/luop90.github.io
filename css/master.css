@@ -1,0 +1,21 @@
+main {
+  color: #999;
+  background-color: #222;
+  min-height: 100%;
+  width: 100%;
+  display: block;
+  position: absolute;
+}
+
+span, a {
+  font-size: 20px;
+}
+
+ul:not(.inline-list) {
+  margin-left: 1em;
+}
+
+ul.inline-list > li {
+  display: inline;
+  margin-right: 1em;
+}
