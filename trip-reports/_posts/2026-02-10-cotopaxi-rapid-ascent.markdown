@@ -15,7 +15,10 @@ A little bit on our climbing background: my wife has done all the 58 Colorado 14
 
 Importantly, last summer we did our first expedition to Kilimanjaro and had an absolute blast. It was _surprisingly_ easy, with the guides telling me "pole, pole!" more than once on the way up.
 
-(image)
+{% include figure_image.html
+    image="kili-summit.JPG"
+    width="100%"
+%}
 
 Our lead guide was from Ecuador, and on day 5 or 6 of sleeping like crap in an angled tent with a not-quite-thick-enough sleeping pad on the side of a friggan mountain, gave us the best timed sales pitch:
 For your next trip, go to Ecuador!
