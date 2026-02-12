@@ -1,0 +1,37 @@
+{% comment %}
+  Centered image with optional size and caption.
+  Usage (full path):
+    {% include figure_image.html path="/path/to/image.jpg" width="50%" caption="Your caption" alt="Alt text" %}
+  Usage (with post assets_path – set in front matter: assets_path: /trip-reports/assets/2026-02-10-my-post):
+    {% include figure_image.html image="photo.JPEG" height="50%" caption="Caption." alt="Alt" %}
+  Parameters:
+    path    - Full image URL path (use this OR image)
+    image   - Image filename only; requires assets_path in the page’s front matter (use this OR path)
+    width   - CSS width, e.g. "50%", "400px" (optional; specify width and/or height)
+    height  - CSS height, e.g. "50%", "300px" (optional)
+    caption - Caption below the image (optional)
+    alt     - Alt text for accessibility (optional, falls back to caption if blank)
+{% endcomment %}
+{% if include.path %}
+  {% assign img_src = include.path %}
+{% elsif include.image and page.assets_path %}
+  {% assign img_src = page.assets_path | append: '/' | append: include.image %}
+{% else %}
+  {% assign img_src = '' %}
+{% endif %}
+{% assign img_style = "display: block; margin-left: auto; margin-right: auto;" %}
+{% if include.width %}
+  {% assign img_style = img_style | append: " width: " | append: include.width | append: ";" %}
+{% endif %}
+{% if include.height %}
+  {% assign img_style = img_style | append: " height: " | append: include.height | append: ";" %}
+{% endif %}
+{% unless include.width or include.height %}
+  {% assign img_style = img_style | append: " width: 75%;" %}
+{% endunless %}
+<figure style="text-align: center;">
+  <img src="{{ img_src }}" alt="{{ include.alt | default: include.caption | default: '' }}" style="{{ img_style }}">
+  {% if include.caption %}
+  <figcaption>{{ include.caption }}</figcaption>
+  {% endif %}
+</figure>
