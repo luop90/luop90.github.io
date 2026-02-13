@@ -8,6 +8,22 @@ assets_path: /trip-reports/assets/2026-02-10-cotopaxi-rapid-ascent
 ## Introduction
 My wife, brother, and I signed up for a "rapid ascent" expedition to Ecuador for Cotopaxi and Chimborazo. Or rather, I wanted to go, convinced my wife to join me, and then bullied my brother into coming along as well.
 
+The typical trip for this is 15+ days, and looks something like:
+* Day 1 - 5: Do a series of acclimating hikes on successively taller peaks you’ve never heard of.
+* Day 6 - 15: Actually climb the mountains you flew all this way for.
+
+Recognizing that the limitation for some folks is time away from work/family instead of cost, Alpenglow offers "Rapid Ascent" trips: acclimate at home before leaving and then jump straight to the fun climbing.
+
+This is achieved through sleeping in hypoxic tents that _simulate_ higher altitude by lowering the oxygen % inside the tent itself. Since the Hypoxico rental costs $250/week, minimum rental period of three weeks, this approach doesn’t save any money. It only saves time away from home. 
+
+{% include figure_image.html
+    image="hypoxico-tent.JPEG"
+    caption='My family thought we were "more than a little weird" for sleeping in these things.'
+    alt="Hypoxico tent photo"
+%}
+
+For this specific trip, we would spend four weeks in the tent, and slowly work our way up to a simulated sleeping elevation of 16,000 feet. 
+
 A little bit on our climbing background: my wife has done all the 58 Colorado 14ers.
 * I have join her on all but four.
     * No, she never lets me forget that I chose to sleep in instead of getting out of the tent and joining her on Windom Peak.
@@ -26,22 +42,6 @@ Climb mountains the same height and taller, but stay in a hotel with a real bed 
 None of this camping nonsense.
 
 Unsurprisingly, I was sold. A few months later we had signed up for Cotopaxi (19,341 ft) and Chimborazo (20,530 ft). 
-
-The typical trip for this is 15+ days, and looks something like:
-* Day 1 - 5: Do a series of acclimating hikes on successively taller peaks you’ve never heard of.
-* Day 6 - 15: Actually climb the mountains you flew all this way for.
-
-Recognizing that the limitation for some folks is time away from work/family instead of cost, Alpenglow offers "Rapid Ascent" trips: acclimate at home before leaving and then jump straight to the fun climbing.
-
-This is achieved through sleeping in hypoxic tents that _simulate_ higher altitude by lowering the oxygen % inside the tent itself. Since the Hypoxico rental costs $250/week, minimum rental period of three weeks, this approach doesn’t save any money. It only saves time away from home. 
-
-{% include figure_image.html
-    image="hypoxico-tent.JPEG"
-    caption='My family thought we were "more than a little weird" for sleeping in these things.'
-    alt="Hypoxico tent photo"
-%}
-
-For this specific trip, we spent four weeks in the tent, slowly working our way up to a simulated sleeping elevation of 16,000 feet. We followed the prescribed schedule and soon enough were sending the unit back and packing up for the trip…
 
 ### Day 0: Packing Up
 Wow is there so much more _stuff_ to bring on these trips than I at-a-glance think there should be. Do I really need three pairs of gloves, _plus_ liners? When am I ever going to use this belay device? How is all of this shit going to fit in my duffel bag? 
