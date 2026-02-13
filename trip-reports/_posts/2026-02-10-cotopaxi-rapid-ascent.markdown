@@ -25,7 +25,7 @@ This is achieved through sleeping in hypoxic tents that _simulate_ higher altitu
 For this specific trip, we would spend four weeks in the tent, and slowly work our way up to a simulated sleeping elevation of 16,000 feet. 
 
 A little bit on our climbing background: my wife has done all the 58 Colorado 14ers.
-* I have join her on all but four.
+* I have joined her on all but four.
     * No, she never lets me forget that I chose to sleep in instead of getting out of the tent and joining her on Windom Peak.
 * My brother has joined us for maybe a dozen of them.
 
@@ -36,7 +36,7 @@ Importantly, last summer we did our first expedition to Kilimanjaro and had an a
     width="100%"
 %}
 
-Our lead guide was from Ecuador, and on day 5 or 6 of sleeping like crap in an angled tent with a not-quite-thick-enough sleeping pad on the side of a friggan mountain, gave us the best timed sales pitch:
+Our lead guide was from Ecuador, and on day 5 or 6 of sleeping like crap in an angled tent with a not-quite-thick-enough sleeping pad on the side of a friggin' mountain, gave us the best timed sales pitch:
 For your next trip, go to Ecuador!
 Climb mountains the same height and taller, but stay in a hotel with a real bed and hot water!
 None of this camping nonsense.
@@ -142,7 +142,7 @@ Ten minutes later… summit! Almost exactly at 6am, which meant we got some amaz
     width="100%"
 %}
 
-After getting a bunch of photos, we started back down. We took a different route to avoid the long traverse ("the highway"), and it was also quite a bit more scenic. The path meandered around lots of cravasses and gave us some great views of the glacier. 
+After getting a bunch of photos, we started back down. We took a different route to avoid the long traverse ("the highway"), and it was also quite a bit more scenic. The path meandered around lots of crevasses and gave us some great views of the glacier. 
 
 {% include figure_image.html
     image="walking-down-photo.JPEG"
@@ -183,7 +183,7 @@ The camp itself was quite nice, I was expecting a not-so-flat tent that we’d h
 
 The main surprise was how exposed the camp was: just a few feet away from the entrances to the tents was a surprisingly large drop off. Solid footing was a must when walking to/from the bathroom…
 
-After dinner we started hearing some bad news: only one team (out of 10+) had managed to summit this morning because of dangerous snow conditions. The guide had of that group said it was only barely within his risk tolerance of continuing… 
+After dinner we started hearing some bad news: only one team (out of 10+) had managed to summit this morning because of dangerous snow conditions. The lead guide of that group said it was only barely within his risk tolerance of continuing… 
 
 The danger on Chimborazo that is not really present on Cotopaxi is avalanches. For those with zero knowledge on the subject, here’s a primer from someone with only a tiny bit of knowledge on it:
 
@@ -192,7 +192,7 @@ Avalanches require three things: slope, snow, and a trigger.
 1. Avalanche terrain is primarily a slope angle of 30-45°, below that is too flat to slide, above that slabs don’t form. The most dangerous slope angle is 37°.
     * Once you gain the ridge above high camp, the slope is 30-37º all the way to the lower summit. 
 
-1. The main avalanche problem maritime snowpacks, e.g. Ecuador, have is storm slab. This occurs when a lot of fresh snow falls. (Colorado doesn’t have this problem :lol-sob:)
+1. The main avalanche problem that maritime snowpacks, e.g. Ecuador, have is storm slab. This occurs when a lot of fresh snow falls. (Colorado doesn’t have this problem :lol-sob:)
 
 1. Climbing on/connected to avalanche terrain makes you the trigger. 
 
@@ -266,11 +266,11 @@ Cons:
 * Sleeping in the tent _sucks_.
     * It’s hot, uncomfortable, and negatively impacts recovery from training.
 * Hypoxico also doesn’t want you traveling with the unit (risk of damage), and even if you do, it’s big/bulky and heavy.
-    * The unit itself weights ~58 lbs, and the box it comes in is 72 linear inches.
+    * The unit itself weighs ~58 lbs, and the box it comes in is 72 linear inches.
     * If you wanted to fly with this, you'll be charged for _both_ overweight and oversized bag fees.
 * Therefore you need to carve out a big chunk of time to do zero overnight trips.
 
-There was a MD on the trip who bought a C02 monitor, and claimed the levels inside the tent are >5x what's considered the "safe limit". She was adament if we were going to use the tent again we should find an alternative to their head bivy since it doesn't have proper ventilation.
+There was a MD on the trip who bought a C02 monitor, and claimed the levels inside the tent are >5x what's considered the "safe limit". She was adamant if we were going to use the tent again we should find an alternative to their head bivy since it doesn't have proper ventilation.
 
 I’m not sure the benefits outweigh the costs for this short of a trip.
 * A month of pain to save only one week doesn’t quite seem worth it in hindsight.
@@ -304,7 +304,7 @@ It called for:
 
 ### Cost
 
-This what we paid per-person cost for the trip:
+This is what we paid per-person cost for the trip:
 
 | Item                                           | Cost   |
 |------------------------------------------------|--------|
