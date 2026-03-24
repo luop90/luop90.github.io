@@ -27,7 +27,7 @@
   {% assign img_style = img_style | append: " height: " | append: include.height | append: ";" %}
 {% endif %}
 {% unless include.width or include.height %}
-  {% assign img_style = img_style | append: " width: 75%;" %}
+  {% assign img_style = img_style | append: " width: 90%;" %}
 {% endunless %}
 <figure style="text-align: center;">
   <img src="{{ img_src }}" alt="{{ include.alt | default: include.caption | default: '' }}" style="{{ img_style }}">
