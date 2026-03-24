@@ -14,7 +14,7 @@ Some background: one of Salesforce's principles is "business is the greatest pla
 
 For the "1% of time" piece, employees get 56 hours/seven days of volunteer time off, "VTO", each year.  One of my personal goals is to fully use this. Last year I spent a week in Sri Lanka, this year I went to the Philippines. 
 
-San-Eng elementary has 432 students(!) in grades 1 - 6. Since there are two classes each of grades 4 - 6, the school needs nine classrooms for each class to have its own room. The school previously had enough rooms, but in 2022 one of the school's buildings was destroyed during a typhoon leaving them short. 
+Sam-Eng elementary has 432 students(!) in grades 1 - 6. Since there are two classes each of grades 4 - 6, the school needs nine classrooms for each class to have its own room. The school previously had enough rooms, but in 2022 one of the school's buildings was destroyed during a typhoon leaving them short. 
 
 {% include figure_image.html
     image="damaged-building.jpg"
