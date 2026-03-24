@@ -14,7 +14,7 @@ Some background: one of Salesforce's principles is "business is the greatest pla
 
 For the "1% of time" piece, employees get 56 hours/seven days of volunteer time off, "VTO", each year.  One of my personal goals is to fully use this. Last year I spent a week in Sri Lanka, this year I went to the Philippines. 
 
-Sam-Eng elementary has 432 students(!) in grades 1 - 6. Since there are two classes each of grades 4 - 6, the school needs nine classrooms for each class to have its own room. The school previously had enough rooms, but in 2022 one of the school's buildings was destroyed during a typhoon leaving them short. 
+Sam-Eng elementary has 432 students(!) in grades 1 - 6. Since there are two classes each of grades 4 - 6, the school needs nine classrooms for each class to have its own room. The school previously had enough rooms, but in 2021 one of the school's buildings was destroyed by Typhoon Odette leaving them short. 
 
 {% include figure_image.html
     image="damaged-building.jpg"
@@ -147,8 +147,6 @@ The other activity I like to do is give the kids math problems, but I completely
 
 Thankfully ChatGPT came to the rescue with suggestions like long division, large-number addition, multiplication tables, and sequences. Once I figured out the appropriate level of difficulty we had a lot of fun giving each other problems to solve. It was fulfilling seeing the quiet, shy kids who didn't join in the group games come out of their shell and rock the math problems.
 
-<!-- <photo: the 4th graders I spent a couple hours doing math with. I forgot to take a photo of us doing the problems unfortunately> -->
-
 {% include figure_image.html
     image="the-4th-graders.JPEG"
     caption="The 4th graders I spent a couple hours doing math with. <br> I forgot to take a photo of us actually doing the problems unfortunately"
@@ -159,7 +157,7 @@ Thankfully ChatGPT came to the rescue with suggestions like long division, large
     caption="Getting a tattoo!"
 %}
 
-Honestly my favorite 'cultural' interaction wasn't at the school, but rather by our hotel. There was a public basketball court nearby where kids from the surrounding area would play streetball. On the last night a group of us went over and played a couple pickup games with them and we had a blast. My biggest regret from the trip was not discovering this sooner, as had I known I would have played with them every night.
+Honestly my favorite 'cultural' interaction wasn't at the school, but rather by our hotel. There was a public basketball court nearby where kids from the surrounding area would play streetball. On the last night a group of us went over and played a couple pickup games with them and we had a blast. My only regret from the trip was not discovering this sooner, as had I known I would have played with them every night.
 
 
 {% include figure_image.html
