@@ -5,7 +5,7 @@ tags: "trip report"
 assets_path: /trip-reports/assets/2026-03-23-dwc-philippines
 ---
 
-I spent the last week in the Philippines on the island of Cebu volunteering through Developing World Connections at San-Eng elementary school.
+I spent the last week in the Philippines on the island of Cebu volunteering through Developing World Connections at Sam-Eng elementary school.
 * Yes, you read that right: volunteering, for a week, in a foreign country.
 * Even though I'm not retired and work a "real job". 
 
